@@ -1,0 +1,236 @@
+            @media (max-width: 991px) {
+                /*common*/
+                .ptb-150 {
+                    padding-top: 80px;
+                    padding-bottom: 80px;
+                }
+                .navbar-brand img {
+                    margin-left: 0px;
+                }
+                .navbar-dark .navbar-toggler {
+                    color: rgba(255, 255, 255, .5);
+                    border: none;
+                    outline: none;
+                }
+                /*navbar*/
+                .navbar-nav {
+                    background: #033C3F !important;
+                }
+                /*about img*/
+                .about-img {
+                    margin-bottom: 60px;
+                }
+                /*service-item*/
+                .service-item h3 {
+                    font-size: 22px;
+                }
+                /*port-item port-data*/
+                .port-item .port-data h4 {
+                    font-size: 18px;
+                }
+                .port-item .port-data p {
+                    font-size: 12px !important;
+                }
+                /* pricing */
+                .pricing-item ul li {
+                    font-size: 14px;
+                }
+                .pricing-item p {
+                    font-size: 12px;
+                    margin-bottom: 7px;
+                }
+                .pricing-item h2 {
+                    font-size: 30px;
+                    margin: 3px 0px;
+                }
+                .pricing-item h5 {
+                    font-weight: 600;
+                    font-size: small;
+                }
+                .pricing-item ul li {
+                    padding: 5px 0px;
+                    font-weight: 400;
+                }
+                /* contact*/
+                .c-address-last-item {
+                    text-align: center;
+                }
+            }
+            
+            @media (max-width: 767px) {
+                .service-item h3 {
+                    font-size: 18px;
+                }
+                .port-item .port-data h4 {
+                    font-size: 18px;
+                }
+                .port-item .port-data p {
+                    font-size: 12px !important;
+                }
+                .pricing-item {
+                    margin: 15px 0px;
+                    text-align: center;
+                    padding: 30px;
+                    box-shadow: 0px 0px 15px #ccc;
+                    font-family: 'Poppins', sans-serif;
+                    background: #fff;
+                    transition: .3s;
+                    border-radius: 2px;
+                }
+                .pricing-item h5 {
+                    font-size: larger;
+                }
+                .pricing-item h2 {
+                    font-size: 70px;
+                    margin: 30px 0px;
+                }
+                .pricing-item h2 span {
+                    font-size: 20px;
+                }
+                .pricing-item p {
+                    width: 300px;
+                    margin: auto;
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    color: #bbb;
+                }
+                .pricing-item ul li {
+                    padding: 15px 0px;
+                    font-weight: 600;
+                    color: #555;
+                    font-size: 16px;
+                }
+                .ach-items-3 {
+                    margin-top: 40px;
+                }
+                .ach-items-4 {
+                    margin-top: 40px;
+                }
+                .achievement {
+                    padding: 30px 0px;
+                }
+                .text-right {
+                    text-align: center !important;
+                    margin-top: 20px;
+                }
+                .text-left {
+                    text-align: center !important;
+                }
+                .banner-data h1 {
+                    font-size: 40px;
+                }
+            }
+            
+            @media (max-width: 575px) {
+                .banner-data h1 {
+                    font-size: 30px;
+                }
+                .banner-data p {
+                    max-width: 300px;
+                }
+                .banner-data h3 {
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+                .banner-data h3 span {
+                    font-size: 16px;
+                }
+                .svid-cover h1 {
+                    font-size: 28px;
+                }
+                .svid-cover h6 {
+                    font-size: 12px;
+                }
+                .svid-cover p {
+                    width: 300px;
+                    margin-top: 15px;
+                }
+                .testi-item::before {
+                    width: 70px;
+                    height: 70px;
+                    font-size: 44px;
+                    line-height: 70px;
+                }
+                .c-address {
+                    text-align: center;
+                    overflow: auto;
+                }
+                .port-buttons button {
+                    margin-bottom: 5px;
+                }
+                .navbar-brand img {
+                    width: 100px;
+                }
+                .svid-cover {
+                    padding: 50px 0px;
+                }
+            }
+            
+            @media (max-width: 575px) {
+                .pricing-item p {
+                    width: 150px;
+                    font-size: 12px;
+                }
+                .pricing-item h2 {
+                    font-size: 40px;
+                    margin: 10px 0px;
+                }
+                .pricing-item h5 {
+                    font-size: small;
+                }
+                .pricing-item ul li {
+                    font-weight: 300;
+                    font-size: 15px;
+                }
+                .svid-cover h6 {
+                    font-weight: 100;
+                    width: 150px;
+                    margin: 0 auto;
+                }
+                .svid-cover h1 {
+                    font-size: 22px;
+                }
+                .svid-cover p {
+                    width: 150px;
+                    margin-top: 15px;
+                }
+                .svid-cover i {
+                    font-size: 60px;
+                }
+                .svid-cover {
+                    padding: 35px 0px;
+                }
+                .achievement {
+                    padding: 50px 0px;
+                }
+                .banner-data h1 {
+                    margin-bottom: 20px;
+                }
+                .banner-data h1 span {
+                    font-size: 30px;
+                }
+                .banner-data p {
+                    margin-bottom: 20px;
+                }
+                .banner {
+                    height: 80vh;
+                }
+                .about-text .btn {
+                    padding: 7px 10px;
+                }
+            }
+            
+            @media (max-width: 275px) {
+                .banner-data h1 {
+                    font-size: 24px;
+                }
+                .banner-data h1 span {
+                    font-size: 20px;
+                }
+                .banner {
+                    height: 70vh;
+                }
+                .about-text h3 {
+                    font-size: 20px;
+                }
+            }
